@@ -1,7 +1,6 @@
 import pandas
 import numpy
 
-from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 data = pandas.read_csv('dataset.csv')
